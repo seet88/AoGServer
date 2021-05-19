@@ -1,0 +1,30 @@
+{
+  "name": "aog_server",
+  "version": "1.0.0",
+  "description": "Comunnication server for AgOpenGps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.gospogied.pl/beny/aog_server"
+  },
+  "keywords": [
+    "AOG",
+    "Socket.io",
+    "TCP"
+  ],
+  "author": "Grzesiek",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "nodemon": "^2.0.7"
+  }
+}
